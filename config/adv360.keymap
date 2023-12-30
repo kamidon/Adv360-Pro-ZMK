@@ -80,21 +80,61 @@
 
         layer_Colemak {
             bindings = <
-     &kp PLUS    &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5               &kp DOLLAR                                                                     &kp PIPE  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9   &kp NUMBER_0        &kp CARET
- &kp ASTERISK           &kp Q         &kp W           &kp F            &kp P         &kp G                   &trans                                                                       &trans         &kp J         &kp L         &kp U          &kp Y  &kp SEMICOLON        &kp COLON
-       &trans           &kp A         &kp R           &kp S            &kp T         &kp D            &kp BACKSPACE  &kp LEFT_SHIFT  &trans                  &trans  &kp RIGHT_SHIFT  &kp DELETE         &kp H         &kp N         &kp E          &kp I          &kp O           &trans
-    &kp GRAVE           &kp Z         &kp X           &kp C            &kp V         &kp B                                           &trans                  &trans                                      &kp K         &kp M     &kp COMMA     &kp PERIOD   &kp QUESTION   &kp APOSTROPHE
-    &kp TILDE  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW                                 &trans          &trans  &trans                  &trans           &trans      &trans                    &kp HOME   &kp PAGE_UP  &kp PAGE_DOWN        &kp END  &kp EXCLAMATION
+     &kp PLUS    &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5               &kp DOLLAR                                                                          &kp PIPE  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9   &kp NUMBER_0            &kp CARET
+ &kp ASTERISK           &kp Q         &kp W           &kp F            &kp P         &kp G              &lt 5 EQUAL                                                                   &lt 5 AMPERSAND         &kp J         &kp L         &kp U          &kp Y  &kp SEMICOLON            &kp COLON
+ &lt 9 ESCAPE           &kp A         &kp R           &kp S            &kp T         &kp D            &kp BACKSPACE  &kp LEFT_SHIFT  &trans                  &trans  &kp RIGHT_SHIFT       &kp DELETE         &kp H         &kp N         &kp E          &kp I          &kp O  &lt 9 DOUBLE_QUOTES
+    &kp GRAVE           &kp Z         &kp X           &kp C            &kp V         &kp B                                           &trans                  &trans                                           &kp K         &kp M     &kp COMMA     &kp PERIOD   &kp QUESTION       &kp APOSTROPHE
+    &kp TILDE  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW                                 &trans          &trans  &trans                  &trans           &trans           &trans                    &kp HOME   &kp PAGE_UP  &kp PAGE_DOWN        &kp END      &kp EXCLAMATION
             >;
         };
 
         layer_Colemak_Reverse {
             bindings = <
-       &kp CARET   &kp NUMBER_0   &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7  &kp NUMBER_6              &kp PIPE                                                     &kp DOLLAR  &kp NUMBER_5     &kp NUMBER_4    &kp NUMBER_3  &kp NUMBER_2    &kp NUMBER_1   &kp PLUS
-       &kp COLON  &kp SEMICOLON          &kp Y         &kp U         &kp L         &kp J                &trans                                                         &trans         &kp G            &kp P           &kp F         &kp W           &kp Q      &none
-          &trans          &kp O          &kp I         &kp E         &kp N         &kp H            &kp DELETE  &trans  &trans                  &trans  &trans  &kp BACKSPACE         &kp D            &kp T           &kp S         &kp R           &kp A     &trans
-  &kp APOSTROPHE   &kp QUESTION     &kp PERIOD     &kp COMMA         &kp M         &kp K                                &trans                  &trans                                &kp B            &kp V           &kp C         &kp X           &kp Z  &kp GRAVE
- &kp EXCLAMATION        &kp END  &kp PAGE_DOWN   &kp PAGE_UP      &kp HOME                              &trans  &trans  &trans                  &trans  &trans         &trans                &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp TILDE
+         &kp CARET   &kp NUMBER_0   &kp NUMBER_9  &kp NUMBER_8  &kp NUMBER_7  &kp NUMBER_6                 &kp PIPE                                                     &kp DOLLAR  &kp NUMBER_5     &kp NUMBER_4    &kp NUMBER_3  &kp NUMBER_2    &kp NUMBER_1      &kp PLUS
+         &kp COLON  &kp SEMICOLON          &kp Y         &kp U         &kp L         &kp J            &kp AMPERSAND                                                      &kp EQUAL         &kp G            &kp P           &kp F         &kp W           &kp Q  &kp ASTERISK
+ &kp DOUBLE_QUOTES          &kp O          &kp I         &kp E         &kp N         &kp H               &kp DELETE  &trans  &trans                  &trans  &trans  &kp BACKSPACE         &kp D            &kp T           &kp S         &kp R           &kp A    &kp ESCAPE
+    &kp APOSTROPHE   &kp QUESTION     &kp PERIOD     &kp COMMA         &kp M         &kp K                                   &trans                  &trans                                &kp B            &kp V           &kp C         &kp X           &kp Z     &kp GRAVE
+   &kp EXCLAMATION        &kp END  &kp PAGE_DOWN   &kp PAGE_UP      &kp HOME                                 &trans  &trans  &trans                  &trans  &trans         &trans                &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_ARROW     &kp TILDE
+            >;
+        };
+
+        layer_KEA_KP {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_KEA_FN {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_KEA_Macro {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_KEA_Mod_Plus {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
