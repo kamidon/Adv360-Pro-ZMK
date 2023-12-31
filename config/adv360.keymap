@@ -110,11 +110,11 @@
 
         layer_KEA_FN {
             bindings = <
-  &kp SCROLLLOCK  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5            &kp F11                                                  &kp F12  &kp F6                 &kp F7            &kp F8           &kp F9            &kp F10  &trans
- &kp PRINTSCREEN  &trans  &trans  &trans  &trans  &trans             &trans                                                   &trans  &trans                 &trans            &trans           &trans             &trans  &trans
-          &trans  &trans  &trans  &trans  &trans  &trans             &trans  &trans  &trans                  &trans  &trans   &trans  &trans   &kp LEFT_PARENTHESIS     &kp LESS_THAN   &kp LEFT_BRACE   &kp LEFT_BRACKET  &trans
-      &kp INSERT  &trans  &trans  &trans  &trans  &trans                             &trans                  &trans                   &trans  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans
-      &kp SYSREQ  &trans  &trans  &trans  &trans                     &trans  &trans  &trans                  &trans  &trans   &trans                         &trans            &trans           &trans             &trans  &trans
+  &kp SCROLLLOCK                    &kp F1                    &kp F2                    &kp F3                    &kp F4                    &kp F5            &kp F11                                                  &kp F12  &kp F6                 &kp F7            &kp F8           &kp F9            &kp F10  &trans
+ &kp PRINTSCREEN  &kp LC(LA(LG(NUMBER_2)))  &kp LC(LA(LG(NUMBER_0)))  &kp LC(LA(LG(NUMBER_9)))  &kp LC(LA(LG(NUMBER_6)))  &kp LC(LA(LG(NUMBER_7)))             &trans                                                   &trans  &trans                 &trans            &trans           &trans             &trans  &trans
+          &trans  &kp LC(LA(LG(NUMBER_1)))  &kp LC(LA(LG(NUMBER_3)))  &kp LC(LA(LG(NUMBER_4)))  &kp LC(LA(LG(NUMBER_5)))  &kp LC(LA(LG(NUMBER_8)))             &trans  &trans  &trans                  &trans  &trans   &trans  &trans   &kp LEFT_PARENTHESIS     &kp LESS_THAN   &kp LEFT_BRACE   &kp LEFT_BRACKET  &trans
+      &kp INSERT                    &trans                    &trans                    &trans                    &trans                    &trans                             &trans                  &trans                   &trans  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans
+      &kp SYSREQ                    &trans                    &trans                    &trans                    &trans                                       &trans  &trans  &trans                  &trans  &trans   &trans                         &trans            &trans           &trans             &trans  &trans
             >;
         };
 

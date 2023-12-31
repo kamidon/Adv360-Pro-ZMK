@@ -168,5 +168,175 @@
 		},
 		"footnotes": {},
 		"type": "UD"
+	},
+	{
+		"names": [
+			"LC(LA(LG(NUMBER_1)))"
+		],
+		"description": "LC(LA(LG(NUMBER_1)))",
+		"clarify": false,
+		"documentation": "",
+		"os": {
+			"windows": true,
+			"linux": true,
+			"android": true,
+			"macos": true,
+			"ios": true
+		},
+		"footnotes": {},
+		"type": "UD"
+	},
+	{
+		"names": [
+			"LC(LA(LG(NUMBER_2)))"
+		],
+		"description": "LC(LA(LG(NUMBER_2)))",
+		"clarify": false,
+		"documentation": "",
+		"os": {
+			"windows": true,
+			"linux": true,
+			"android": true,
+			"macos": true,
+			"ios": true
+		},
+		"footnotes": {},
+		"type": "UD"
+	},
+	{
+		"names": [
+			"LC(LA(LG(NUMBER_3)))"
+		],
+		"description": "LC(LA(LG(NUMBER_3)))",
+		"clarify": false,
+		"documentation": "",
+		"os": {
+			"windows": true,
+			"linux": true,
+			"android": true,
+			"macos": true,
+			"ios": true
+		},
+		"footnotes": {},
+		"type": "UD"
+	},
+	{
+		"names": [
+			"LC(LA(LG(NUMBER_4)))"
+		],
+		"description": "LC(LA(LG(NUMBER_4)))",
+		"clarify": false,
+		"documentation": "",
+		"os": {
+			"windows": true,
+			"linux": true,
+			"android": true,
+			"macos": true,
+			"ios": true
+		},
+		"footnotes": {},
+		"type": "UD"
+	},
+	{
+		"names": [
+			"LC(LA(LG(NUMBER_5)))"
+		],
+		"description": "LC(LA(LG(NUMBER_5)))",
+		"clarify": false,
+		"documentation": "",
+		"os": {
+			"windows": true,
+			"linux": true,
+			"android": true,
+			"macos": true,
+			"ios": true
+		},
+		"footnotes": {},
+		"type": "UD"
+	},
+	{
+		"names": [
+			"LC(LA(LG(NUMBER_8)))"
+		],
+		"description": "LC(LA(LG(NUMBER_8)))",
+		"clarify": false,
+		"documentation": "",
+		"os": {
+			"windows": true,
+			"linux": true,
+			"android": true,
+			"macos": true,
+			"ios": true
+		},
+		"footnotes": {},
+		"type": "UD"
+	},
+	{
+		"names": [
+			"LC(LA(LG(NUMBER_7)))"
+		],
+		"description": "LC(LA(LG(NUMBER_7)))",
+		"clarify": false,
+		"documentation": "",
+		"os": {
+			"windows": true,
+			"linux": true,
+			"android": true,
+			"macos": true,
+			"ios": true
+		},
+		"footnotes": {},
+		"type": "UD"
+	},
+	{
+		"names": [
+			"LC(LA(LG(NUMBER_6)))"
+		],
+		"description": "LC(LA(LG(NUMBER_6)))",
+		"clarify": false,
+		"documentation": "",
+		"os": {
+			"windows": true,
+			"linux": true,
+			"android": true,
+			"macos": true,
+			"ios": true
+		},
+		"footnotes": {},
+		"type": "UD"
+	},
+	{
+		"names": [
+			"LC(LA(LG(NUMBER_9)))"
+		],
+		"description": "LC(LA(LG(NUMBER_9)))",
+		"clarify": false,
+		"documentation": "",
+		"os": {
+			"windows": true,
+			"linux": true,
+			"android": true,
+			"macos": true,
+			"ios": true
+		},
+		"footnotes": {},
+		"type": "UD"
+	},
+	{
+		"names": [
+			"LC(LA(LG(NUMBER_0)))"
+		],
+		"description": "LC(LA(LG(NUMBER_0)))",
+		"clarify": false,
+		"documentation": "",
+		"os": {
+			"windows": true,
+			"linux": true,
+			"android": true,
+			"macos": true,
+			"ios": true
+		},
+		"footnotes": {},
+		"type": "UD"
 	}
 ]
